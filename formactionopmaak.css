@@ -10,3 +10,8 @@ form {
     margin:auto;
 }
 
+#submit {
+    background-color:midnightblue;
+    color: white;
+    
+}

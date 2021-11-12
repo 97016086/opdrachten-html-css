@@ -16,10 +16,23 @@ a{
     text-align:center;
    
 }
+#formulier {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#zoekveld {
+   
+    border-radius:5px;
+    border: 0.1px solid grey;
+    box-shadow:none;
+    
+    
+}
 * {
    
     background-color:rgb(46, 46, 46);
     color:white;
-    font-family:sans-serif
+    font-family:sans-serif;
 
 }

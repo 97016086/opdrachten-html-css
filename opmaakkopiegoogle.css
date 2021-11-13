@@ -12,26 +12,51 @@ a{
 
 #Google {
     font-size: 94px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
     text-align:center;
    
 }
 #formulier {
     display:flex;
+    flex-direction:column;
     justify-content:center;
     align-items:center;
 }
 #zoekveld {
-   
-    border-radius:5px;
+    border-radius:  18px;
     border: 0.1px solid grey;
     box-shadow:none;
-    
+    width: 546px;
+    height: 36px;
     
 }
+#submit {
+    display:flex;
+    flex-direction:row;
+    word-spacing:10px;
+    font-size:18px;
+
+
+}
+#googlezoeken, #eengok {
+    display:flex;
+    font-size:14px;
+    box-shadow:none;
+    background-color:#303134;
+    border:none;
+    border-radius: 5px;
+    height:47px;
+    margin-right: 20px;
+
+   
+
+    
+}
+
+
 * {
    
-    background-color:rgb(46, 46, 46);
+    background-color:#202124;
     color:white;
     font-family:sans-serif;
 

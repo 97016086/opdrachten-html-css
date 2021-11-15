@@ -1,19 +1,20 @@
-a{
-    text-decoration: none;
-    color:white;
-    
 
-}
 
 .navigatie {
     text-align: right;
     word-spacing: 10px;
 }
 
+a.navigatie {
+    text-decoration: none;
+    color:white;
+}
+
 #Google {
     font-size: 94px;
     font-family: 'Red Hat Display', sans-serif;
     text-align:center;
+    margin:auto;
    
 }
 #formulier {
@@ -28,9 +29,11 @@ a{
     box-shadow:none;
     width: 546px;
     height: 36px;
+    background-color:#202124;
+    
     
 }
-#submit {
+.submit {
     display:flex;
     flex-direction:row;
     word-spacing:10px;
@@ -38,23 +41,83 @@ a{
 
 
 }
-#googlezoeken, #eengok {
+.button{
     display:flex;
+    flex-direction:row;
+    font-size:18px;
+    justify-content:center;
     font-size:14px;
     box-shadow:none;
     background-color:#303134;
     border:none;
     border-radius: 5px;
-    height:47px;
+    height: 41px;  
+    width: 137px;
     margin-right: 20px;
+    padding:6px;
+   align-items:center;
+   color:white;
+
 
    
 
     
 }
 
+.button:hover {
+    border: 1px solid grey;
+    cursor:pointer;
+}
 
-* {
+
+#Nederland {
+   
+    background-color:#171717;
+    border-bottom:2px solid #202124;
+    padding:10px;
+    width:100%;
+    position:absolute;
+    bottom:40px;
+    color: rgb(184, 184, 184);
+
+}
+footer {
+ 
+    background-color:#171717;
+    width:100%;
+    padding:10px;
+    color: rgb(184, 184, 184);
+    position:absolute;
+    bottom:0px;
+    text-decoration:none;
+
+    
+}
+
+a.footer {
+    text-decoration:none;
+    color: rgb(184, 184, 184);
+}
+
+p {
+text-align:center;
+color:rgb(184, 184, 184);
+font-size:medium;
+font-size:13px;
+}
+
+
+.talen {
+   color:rgb(141, 181, 233);
+   text-decoration: none;
+ 
+}
+
+.talen:hover {
+    text-decoration:underline;
+}
+
+body, header{
    
     background-color:#202124;
     color:white;

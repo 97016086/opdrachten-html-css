@@ -57,6 +57,7 @@ a.navigatie {
     padding:6px;
    align-items:center;
    color:white;
+   cursor:pointer;
 
 
    
@@ -66,7 +67,7 @@ a.navigatie {
 
 .button:hover {
     border: 1px solid grey;
-    cursor:pointer;
+    
 }
 
 

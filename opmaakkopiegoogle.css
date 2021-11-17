@@ -39,6 +39,8 @@ a.navigatie {
     
     
 }
+
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
 .submit {
     display:flex;
     flex-direction:row;
@@ -86,6 +88,7 @@ a.navigatie {
     position:absolute;
     bottom:40px;
     color: rgb(184, 184, 184);
+    margin-left: -10px;
 
 }
 footer {
@@ -97,7 +100,7 @@ footer {
     position:absolute;
     bottom:0px;
     text-decoration:none;
-
+    margin-left: -10px;
     
 }
 

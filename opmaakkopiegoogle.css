@@ -37,10 +37,14 @@ a.navigatie {
     height: 36px;
     background-color:#202124;
     
-    
+
 }
 
-.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light { 
+    color: rgba(255, 255, 255, 1); 
+
+}
+
 .submit {
     display:flex;
     flex-direction:row;
@@ -92,7 +96,6 @@ a.navigatie {
 
 }
 footer {
- 
     background-color:#171717;
     width:100%;
     padding:10px;
@@ -102,6 +105,9 @@ footer {
     text-decoration:none;
     margin-left: -10px;
     
+}
+footer:hover{
+    text-decoration:underline;
 }
 
 a.footer {

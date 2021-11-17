@@ -39,12 +39,37 @@ a.navigatie {
     
 
 }
+#zoekveld:hover {
+    box-shadow:black;
+    color: #363636;
+}
 
 .material-icons.md-light { 
     color: rgba(255, 255, 255, 1); 
 
 }
 
+.tooltip {
+    position: relative;
+    display:inline-block;
+}
+
+.tooltip, .tooltip-text {
+    visibility:hidden;
+    width:120px;
+    background-color:black;
+    color:#fff;
+    text-align:center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index:1;
+
+}
+
+.tooltip:hover, .tooltip-text {
+    visibility: visible;
+}
 .submit {
     display:flex;
     flex-direction:row;
@@ -110,6 +135,14 @@ footer:hover{
     text-decoration:underline;
 }
 
+.footer {
+    word-spacing:1px;
+}
+
+a.CO2 {
+    text-decoration:none;
+    color: rgb(184, 184, 184);
+}
 a.footer {
     text-decoration:none;
     color: rgb(184, 184, 184);

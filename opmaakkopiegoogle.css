@@ -9,13 +9,25 @@
 header {
     display:flex;
     justify-content:flex-end;
+    align-content:space-between;
     
 
 }
 
+#navigatie i {
+    position:relative;
+
+}
+
+navigatie {
+    margin-bottom:10px;
+}
 #apps {
-    border-radius:50%;
+
     color:lightgray;
+    padding: 8px;
+    min-width:16px;
+ 
    
 }
 .zoekveldicoon i {
@@ -23,22 +35,25 @@ header {
 
 }
 
+.zoekveldicoon span {
+    position:absolute;
+
+  
+}
+#mic {
+    margin-left:400px;
+}
 .zoekveldicoon {
     margin-bottom:10px;
 }
 .material-icons {
     color:lightgray;
-    padding:10px;
+    padding: 8px;
     min-width:40px;
 
 
 }
-.material-icons-round {
-    color: lightgrey;
-    padding: 8px;
-    min-width:30px;
- 
-}
+
 /*.navigatie {
     text-align: right;
     word-spacing: 10px;
@@ -47,6 +62,7 @@ header {
 a.navigatie {
     text-decoration: none;
     color:white;
+    font-size:16px;
 }
 
 
@@ -178,7 +194,7 @@ footer {
 
 
 .footer {
-  padding:0px 10px;
+  
   font-size:small;
 } 
 

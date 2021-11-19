@@ -6,43 +6,49 @@
     font-style: normal;
 
 }
-.navigatie {
+header {
+    display:flex;
+    justify-content:flex-end;
+    
+
+}
+
+#apps {
+    border-radius:50%;
+    color:lightgray;
+   
+}
+.zoekveldicoon i {
+    position: absolute;
+
+}
+
+.zoekveldicoon {
+    margin-bottom:10px;
+}
+.material-icons {
+    color:lightgray;
+    padding:10px;
+    min-width:40px;
+
+
+}
+.material-icons-round {
+    color: lightgrey;
+    padding: 8px;
+    min-width:30px;
+ 
+}
+/*.navigatie {
     text-align: right;
     word-spacing: 10px;
-}
+} */
 
 a.navigatie {
     text-decoration: none;
     color:white;
 }
 
-.dropbtn {
-    background-color: rgb(184, 184, 184);
-    border: rgb(184,184,184);
-    border-radius: 50%;
-    padding:5px;
-    
-}
-
-.dot {
-    height:5px;
-    width:5px;
-    background-color: rgb(184,184,184);
-    border-radius: 50%;
-    display:inline-block;
-    margin-bottom:0em;
-    
-}
-
-.br {
-    display:block;
-    margin-bottom:0em;
-}
-.dropdown-content {
-    text-decoration: none;
-    color:rgb(184,184,184);
-
-}
 
 #Google {
     font-size: 94px;
@@ -57,33 +63,32 @@ a.navigatie {
     justify-content:center;
     align-items:center;
 }
+
 #zoekveld {
     border-radius:  18px;
     border: 0.1px solid grey;
     box-shadow:none;
+    font-size:18px;
+    padding-left:40px;
     width: 546px;
     height: 36px;
     background-color:#202124;
-    
+    display:flex;
+    outline: none;
+    position:inherit;
+
 
 }
+
+
+
+
 #zoekveld:hover {
     box-shadow:black;
     color: #363636;
     cursor:pointer;
 }
 
-.material-icons.md-light { 
-    color: rgba(255, 255, 255, 1); 
-
-}
-
-.material-icons.md-16{
-    color:lightgray;
-    font-size:16px;
-    line-height:0.2;
-    
-}
 
 .tooltip {
     position: relative;
@@ -165,7 +170,9 @@ footer {
     bottom:0px;
     text-decoration:none;
     margin-left: -10px;
-    display:block;
+    display:flex;
+    justify-content:space-between;
+
 }
 
 
@@ -175,21 +182,6 @@ footer {
   font-size:small;
 } 
 
-#footerlinks {
-    display:flex;
-    justify-content: left;
-    bottom:0px;
-}
-
-#footermidden {
-    display:flex;
-    justify-content: center;
-}
-
-#footerrechts {
-    display:flex;
-    justify-content:right;
-}
 a.CO2 {
     text-decoration:none;
     color: rgb(184, 184, 184);
@@ -217,6 +209,9 @@ font-size:13px;
     text-decoration:underline;
 }
 
+* {
+    box-sizing:border-box;
+}
 body, header{
    
     background-color:#202124;

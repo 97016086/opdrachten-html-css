@@ -21,6 +21,9 @@ header {
 
 navigatie {
     margin-bottom:10px;
+    display:flex;
+    
+
 }
 #apps {
 
@@ -30,8 +33,14 @@ navigatie {
  
    
 }
+
+#apps:hover {
+    cursor:pointer;
+
+}
 .zoekveldicoon i {
     position: absolute;
+
 
 }
 
@@ -41,23 +50,26 @@ navigatie {
   
 }
 #mic {
-    margin-left:400px;
+    padding:11px;
+    margin-left:550px;
+}
+
+#mic:hover {
+    cursor:pointer;
 }
 .zoekveldicoon {
     margin-bottom:10px;
+    display:flex;
 }
 .material-icons {
     color:lightgray;
-    padding: 8px;
+    padding: 11px;
     min-width:40px;
 
 
 }
 
-/*.navigatie {
-    text-align: right;
-    word-spacing: 10px;
-} */
+
 
 a.navigatie {
     text-decoration: none;
@@ -72,6 +84,7 @@ a.navigatie {
     text-align:center;
     margin:auto;
    
+   
 }
 #formulier {
     display:flex;
@@ -81,13 +94,13 @@ a.navigatie {
 }
 
 #zoekveld {
-    border-radius:  18px;
-    border: 0.1px solid grey;
+    border-radius: 27px;
+    border: 0.3px solid rgb(90, 89, 89);
     box-shadow:none;
     font-size:18px;
     padding-left:40px;
-    width: 546px;
-    height: 36px;
+    width: 601px;
+    height: 49px;
     background-color:#202124;
     display:flex;
     outline: none;
@@ -102,7 +115,7 @@ a.navigatie {
 #zoekveld:hover {
     box-shadow:black;
     color: #363636;
-    cursor:pointer;
+    cursor:auto;
 }
 
 
@@ -169,42 +182,46 @@ a.navigatie {
    
     background-color:#171717;
     border-bottom:2px solid #202124;
-    padding:10px;
+    padding:15px 30px;
     width:100%;
     position:absolute;
-    bottom:40px;
-    color: rgb(184, 184, 184);
+    bottom:50px;
+    color: #999da2;
     margin-left: -10px;
 
 }
 footer {
     background-color:#171717;
     width:100%;
-    padding:10px;
-    color: rgb(184, 184, 184);
+    padding: 15px 30px;
+    color: rgba(102, 102, 102, 0.829);
     position:absolute;
     bottom:0px;
     text-decoration:none;
     margin-left: -10px;
     display:flex;
-    justify-content:space-between;
+    justify-content:space-between;   
 
 }
-
-
+#adverteren, #bedrijf, #HGZwerkt {
+    padding:15px;
+}
 
 .footer {
-  
+ 
   font-size:small;
 } 
 
 a.CO2 {
     text-decoration:none;
-    color: rgb(184, 184, 184);
+    color:#999da2;
+    font-size: 14px;
 }
 a.footer {
     text-decoration:none;
-    color: rgb(184, 184, 184);
+    color: #999da2;
+    font-size:15px;
+   
 }
 
 p {

@@ -1,6 +1,26 @@
 *{
     box-sizing:border-box;
 }
+nav {
+    width:1000px;
+    height:150px;
+    background-color:rgb(70, 135, 156);
+    display: flex;
+    justify-content:center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin:10px;
+    text-align:center;
+}
+
+header {
+    height:150px;
+    width:1000px;
+    background-color:rgb(94, 154, 190);
+}
 main {
     word-break:keep-all;
     width: 700px;
@@ -20,4 +40,8 @@ section{
 
 .artaside {
     display:flex;
+}
+
+#drinks,#puppy, #robin {
+    padding-left:10px;
 }

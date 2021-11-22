@@ -1,0 +1,7 @@
+*{
+    box-sizing:border-box;
+}
+article {
+    word-break:keep-all;
+    width:760px;
+}

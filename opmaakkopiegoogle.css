@@ -14,17 +14,23 @@ header {
 
 }
 
-#navigatie i {
+.navigatie i {
     position:relative;
 
 }
 
-navigatie {
-    margin-bottom:10px;
+.navigatie {
+    
     display:flex;
+    align-items:center;
     
 
 }
+
+#gmail {
+    padding:15px;
+}
+
 #apps {
 
     color:lightgray;
@@ -203,7 +209,7 @@ footer {
     justify-content:space-between;   
 
 }
-#adverteren, #bedrijf, #HGZwerkt {
+#adverteren, #bedrijf, #HGZwerkt, #privacy, #voorwaarden {
     padding:15px;
 }
 
@@ -215,12 +221,16 @@ footer {
 a.CO2 {
     text-decoration:none;
     color:#999da2;
-    font-size: 14px;
+    font-size: 16px;
+}
+img {
+    height:12px;
+    width:14px;
 }
 a.footer {
     text-decoration:none;
     color: #999da2;
-    font-size:15px;
+    font-size:16px;
    
 }
 

@@ -7,6 +7,8 @@ nav {
     background-color:rgb(70, 135, 156);
     display: flex;
     justify-content:center;
+    font-family: 'Outfit', sans-serif;
+font-family: 'Red Hat Display', sans-serif;
 }
 
 a {
@@ -25,11 +27,10 @@ header {
 }
 .headernav {
     display:flex;
-    flex-direction:flow;
+    flex-direction:column;
 }
 #logo {
-    height: 60px;
-    width:60px;
+    width:25%;
 }
 main {
     word-break:keep-all;
@@ -38,10 +39,25 @@ main {
     padding:10px;
     display:flex;
 }
-#name {
-    font-size:16px;
-    text-align:center;
+#table {
+    height:10%;
+    width:10%;
 }
+
+#imgtable {
+    display:flex;
+    flex-direction: column;
+    flex-wrap:nowrap;
+    padding:10px;
+
+}
+#name {
+    font-size:40px;
+    text-align:center;
+    font-family: 'Outfit', sans-serif;
+font-family: 'Red Hat Display', sans-serif;
+}
+
 section{
     width:30%;
     background-color:rgb(60, 157, 189);
@@ -51,8 +67,8 @@ section{
     padding:10px;
 }
 #mariecurie{
-    width: 25%;
-    height:20%;
+    height:5%;
+    float:right;
     display:flex;
 
 }

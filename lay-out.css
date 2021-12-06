@@ -1,4 +1,6 @@
 *{
+    margin: 0px;
+    padding: 0px;
     box-sizing:border-box;
 }
 nav {
@@ -29,15 +31,34 @@ header {
     display:flex;
     flex-direction:column;
 }
-#logo {
-    width:25%;
+.headerlogo {
     display:flex;
+}
+#logo {
+    width:40%;
+    height:auto;
+    display:flex;
+}
+
+h6{
+    text-align: center;
 }
 
 .videotekst {
     display:flex;
+    flex-direction: column;
+    align-items:center;
 }
 
+.textform {
+    display:flex;
+    flex-direction:column;
+}
+
+.texttabel {
+    display:flex;
+    flex-direction:column;
+}
 main {
     word-break:keep-all;
     width: 70%;

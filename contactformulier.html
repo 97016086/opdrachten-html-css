@@ -2,6 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title></title>
     <link rel="stylesheet" type="text/css" href="lay-out.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,6 +22,8 @@
         <a href="onlyyesterday.html" target="_blank">Only Yesterday</a>
         <a href="Kiki's delivery service.html" target="_blank">Kiki's Delivery Service</a>
     </nav>
+
+    <div class="artaside">
     <main>
         <div classs="texttabel">
 
@@ -28,22 +31,23 @@
             <p>Wilt u meer informatie over de films of over Studio Ghibli neem dan contact met ons door het onderstaande formulier in te vullen.</p>
             <br>
             <br>
-            <form>
+            <form action="">
                 <label for="voornaam">voornaam</label>
                 <br>
-                <input type="text" id="voornaam" name="voornaam">
+                <input type="text" id="voornaam" name="voornaam" placeholder="naam" required>
                 <br>
                 <label for="achternaam">achternaam</label>
                 <br>
-                <input type="text" id="achternaam" name="achternaam">
+                <input type="text" id="achternaam" name="achternaam" placeholder="achternaam" required>
                 <br>
                 <label for="email">emailadres</label>
                 <br>
-                <input type="email" id="email" name="email">
+                <input type="email" id="email" name="email" placeholder="email" required>
                 <br>
                 <label for="opmerkingen">opmerkingen</label>
                 <br>
-               <textarea name="contact" rows="10" cols="30" placeholder="Schrijf hier een opmerking"></textarea> 
+               <textarea name="contact" rows="30" cols="50" id
+               ="contact"placeholder="Schrijf hier een opmerking"></textarea> 
                <br>
                 <input type="submit" id="verzenden" name="verzenden" value="submit">
                
@@ -53,193 +57,12 @@
     
             </form>
             <br>
-        <div id="imgtable">
-
-        <p> hieronder een tabel met alle films die Studio Ghibli heeft uitgegeven in een tabel.</p>
-        <br>
         
-            <table>
-                <tr>
-                    <th>welke film</th>
-                    <th>uitgavejaar</th>
-                    <th>regisseur</th>
-                    <th>producer</th>
-                </tr>
-            
-                <tr>
-                    <td>Nausicaä of the valley of the wind</td>
-                    <td>1984</td>
-                    <td>Hayao Miyazaki</td>
-                    <td>Isao Takahata</td>
-                </tr>
-                
-                <tr>
-                  <td>Castle in the Sky</td>
-                  <td>1986</td>
-                  <td>Hayao Miyazaki</td>
-                  <td>Isao Takahata</td>
-                </tr>
-                
-                <tr>
-                  <td>Grave of the Fireflies</td>
-                  <td>1988</td>
-                  <td>Isao Takahata</td>
-                  <td>Tõru Hara</td>
-                </tr>
-  
-                <tr>
-                  <td>My Neighbor Totoro</td>
-                  <td>1988</td>
-                  <td>Hayao Miyazaki</td>
-                  <td>Tõru Hara</td>
-                </tr>
-  
-                <tr>
-                  <td>Kiki's Delivery Service</td>
-                  <td>1989</td>
-                  <td> Hayao Miyazaki</td>
-                  <td>Hayao Miyazaki</td>
-                </tr>
-  
-                <tr>
-                  <td>Only Yesterday</td>
-                  <td> 1991</td>
-                  <td> Isao Takahata</td>
-                  <td>Toshio Suzuki</td>
-                </tr>
-  
-                <tr>
-                  <td>Porco Rosso</td>
-                  <td>1992</td>
-                  <td>Hayao Miyazaki</td>
-                  <td>Toshio Suzuki</td>
-                </tr>
-  
-                <tr>
-                  <td>Ocean Waves</td>
-                  <td>1993</td>
-                  <td>Tomomi Mochizuki, Seji Okuda en Nozomu Takahashi</td>
-                  <td>Toshio Suzuki</td>
-                </tr>
-  
-                <tr>
-                  <td>Pom Poko</td>
-                  <td>1994</td>
-                  <td>Isao Takahata</td>
-                  <td>Toshio Suzuki</td>
-                </tr>
-  
-                <tr>
-                  <td>Whisper of the Heart</td>
-                  <td>1995</td>
-                  <td>Yoshifumi Kondõ en Hayao Miyazaki</td>
-                  <td>Toshio Suzuki</td>
-                </tr>
-  
-                <tr>
-                  <td>Princess Mononoke</td>
-                  <td>1997</td>
-                  <td>Hayao Miyazaki</td>
-                  <td>Toshio Suzuki</td>
-                </tr>
-  
-                <tr>
-                  <td>My Neighbors the Yamadas</td>
-                  <td>1999</td>
-                  <td>Isao Takahata</td>
-                  <td>Toshio Suzuki</td>
-                </tr>
-  
-                <tr>
-                  <td>Spirited Away</td>
-                  <td>2001</td>
-                  <td>Hayao Miyazaki</td>
-                  <td>Toshio Suzuki</td>
-                </tr>
-                
-                <tr>
-                  <td>The Cat Returns</td>
-                  <td>2002</td>
-                  <td>Hiroyuki Morita en Reiko Yoshida</td>
-                  <td>Toshio Suzuki en Nozomu Takahashi</td>
-                </tr>
-  
-                <tr>
-                  <td>Howl's Moving Castle</td>
-                  <td>2004</td>
-                  <td>Hayao Miyazaki</td>
-                  <td>Toshio Suzuki</td>
-                </tr>
-  
-                <tr>
-                  <td>Tales from Earthsea</td>
-                  <td>2006</td>
-                  <td>Gorõ Miyazaki en Keiko Niwa</td>
-                  <td>Tomohiko Ishii en Toshio Suzuki</td>
-                </tr>
-  
-                <tr>
-                  <td>Ponyo</td>
-                  <td>2008</td>
-                  <td>Hayao Miyazaki</td>
-                  <td>Toshio Suzuki</td>
-                </tr>
-  
-                <tr>
-                  <td>Arrietty</td>
-                  <td>2010</td>
-                  <td>Hiromasa Yonebayashi, Hayao Miyazaki en Keiko Niwa</td>
-                  <td>Toshio Suzuki</td>
-                </tr>
-  
-                <tr>
-                  <td>From Up on Poppy Hill</td>
-                  <td>2011</td>
-                  <td>Gorõ Miyazaki, Hayao Miyazaki en Keiko Niwa</td>
-                  <td>Toshio Suzuki</td>
-                </tr>
-  
-                <tr>
-                  <td>The wind Rises</td>
-                  <td>2013</td>
-                  <td>Hayao Miyazaki</td>
-                  <td>Toshio Suzuki</td>
-                </tr>
-  
-                <tr>
-                  <td>the Tale of the Princess Kaguya </td>
-                  <td>2013</td>
-                  <td>Isao Takahata en Riko Sakaguchi</td>
-                  <td>Yoshiaki Nishimura</td>
-                </tr>
-  
-                <tr>
-                  <td>When Marnie Was There</td>
-                  <td>2014</td>
-                  <td>Hiromasa Yonebayashi, Keiko Niwa en  Masashi Ando</td>
-                  <td>Yoshiaki Nishimura</td>
-                </tr>
-  
-                <tr>
-                  <td>Earwig and the Witch</td>
-                  <td>2020</td>
-                  <td>Gorõ Miyazaki, Keiko Niwa en Emi Gunji</td>
-                  <td>Toshi Suzuki</td>
-                </tr>
-  
-                <tr>
-                  <td>How do you live?</td>
-                  <td>2023</td>
-                  <td>Hayao Miyazaki</td>
-                  <td>Toshi Suzuki</td>
-                </tr>
-  
-            </table>
 
         </div>
     
     </main>
-</div>
+
 
 <section>
 
@@ -247,6 +70,7 @@
 
     
 </section>
+</div>
 
 
 
@@ -269,16 +93,15 @@
 
 
 
-
-
-
-
-</body>
 
 
 <footer>
 
 </footer>
+
+
+</body>
+
 
 
 
